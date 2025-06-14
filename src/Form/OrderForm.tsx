@@ -1,93 +1,3 @@
-// import React, { useState } from 'react';
-// import type { Order } from '../Type/Type';
-// import { useMutation, useQueryClient } from '@tanstack/react-query';
-// import { addOrder } from '../api/order';
-// import { useNavigate } from '@tanstack/react-router';
-
-// const OrderForm = () => {
-//   const [tableNo, setTableNo] = useState("");
-//   const [items, setItems] = useState<string[]>([]);
-//   const [itemInput, setItemInput] = useState("");
-//   const [status, setStatus] = useState<Order["status"]>("pending");
-
-//   const queryClient = useQueryClient();
-//   const navigate = useNavigate();
-
-//   const mutation = useMutation({
-//     mutationFn: addOrder,
-//     onSuccess: () => {
-//       queryClient.invalidateQueries({ queryKey: ['order'] });
-//       navigate({ to: '/' });
-//     }
-//   });
-
-//   const handleAddItem = () => {
-//     const trimmed = itemInput.trim();
-//     if (trimmed) {
-//       setItems((prev) => [...prev, trimmed]);
-//       setItemInput("");
-//     }
-//   };
-
-  
-
-//   const handleSubmit = (e: React.FormEvent) => {
-//     e.preventDefault();
-//     const total = items.length * 100;
-//     mutation.mutate({
-//       tableNo,
-//       items,
-//       total,
-//       status,
-//     });
-//   };
-
-//   return (
-//     <form onSubmit={handleSubmit}>
-//       <input
-//         placeholder="Table No"
-//         value={tableNo}
-//         onChange={(e) => setTableNo(e.target.value)}
-//         required
-//       />
-
-//       <div>
-//         <input
-//           placeholder="Add Item"
-//           value={itemInput}
-//           onChange={(e) => setItemInput(e.target.value)}
-//           onKeyDown={(e) => {
-//             if (e.key === 'Enter') {
-//               e.preventDefault();
-//               handleAddItem();
-//             }
-//           }}
-//         />
-//         <button type="button" onClick={handleAddItem}>Add</button>
-//       </div>
-
-//       <div>
-//         <strong>Items:</strong>
-//         {items.length === 0 && <p>No items added.</p>}
-//         {items.map((item, index) => (
-//           <div key={index}>• {item}</div>
-//         ))}
-//       </div>
-
-//       <select
-//         value={status}
-//         onChange={(e) => setStatus(e.target.value as Order["status"])}
-//       >
-//         <option value="pending">Pending</option>
-//         <option value="completed">Completed</option>
-//       </select>
-
-//       <button type="submit">Add Order</button>
-//     </form>
-//   );
-// };
-
-// export default OrderForm;
 
 
 import React, { useState } from 'react';
@@ -100,7 +10,7 @@ const OrderForm = () => {
   const [tableNo, setTableNo] = useState('');
   const [items, setItems] = useState<string[]>([]);
   const [itemInput, setItemInput] = useState('');
-  const [status, setStatus] = useState<Order['status']>('pending')
+  const [status, setStatus] = useState<Order['status']>('pending');
   const queryClient = useQueryClient();
   const navigate = useNavigate();
 
@@ -122,11 +32,9 @@ const OrderForm = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    const total = items.length * 100;
     mutation.mutate({
       tableNo,
       items,
-      total,
       status,
     });
   };

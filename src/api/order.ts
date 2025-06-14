@@ -4,7 +4,7 @@ import type { Order } from "../Type/Type"
     const res =await axios.get<Order[]>("http://localhost:3001/orders")
     return res.data
 };
-export const addOrder=async(order:Order)=>{
+export const addOrder = async (order: Omit<Order, 'id'>) => {
     const res = await axios.post("http://localhost:3001/orders",order)
     return res.data
 

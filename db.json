@@ -7,7 +7,6 @@
         "Burger",
         "Fries"
       ],
-      "total": 200,
       "status": "pending"
     },
     {
@@ -16,7 +15,6 @@
       "items": [
         "Pizza"
       ],
-      "total": 100,
       "status": "completed"
     },
     {
@@ -26,7 +24,6 @@
         "Pasta",
         "Coke"
       ],
-      "total": 200,
       "status": "pending"
     },
     {
@@ -35,7 +32,6 @@
       "items": [
         "Burger"
       ],
-      "total": 100,
       "status": "completed"
     },
     {
@@ -45,7 +41,6 @@
         "Pizza",
         "Coke"
       ],
-      "total": 200,
       "status": "pending"
     },
     {
@@ -55,7 +50,6 @@
         "Fries",
         "Pasta"
       ],
-      "total": 200,
       "status": "pending"
     },
     {
@@ -64,7 +58,6 @@
       "items": [
         "Coke"
       ],
-      "total": 100,
       "status": "completed"
     },
     {
@@ -75,7 +68,6 @@
         "Pizza",
         "Fries"
       ],
-      "total": 300,
       "status": "pending"
     },
     {
@@ -84,7 +76,6 @@
       "items": [
         "Pasta"
       ],
-      "total": 100,
       "status": "completed"
     },
     {
@@ -94,7 +85,6 @@
         "Pizza",
         "Coke"
       ],
-      "total": 200,
       "status": "pending"
     },
     {
@@ -104,7 +94,6 @@
         "Pizza",
         "Fries"
       ],
-      "total": 200,
       "status": "completed"
     },
     {
@@ -113,7 +102,6 @@
       "items": [
         "Coke"
       ],
-      "total": 100,
       "status": "pending"
     },
     {
@@ -122,7 +110,6 @@
       "items": [
         "Burger"
       ],
-      "total": 100,
       "status": "completed"
     },
     {
@@ -132,7 +119,6 @@
         "Pasta",
         "Coke"
       ],
-      "total": 200,
       "status": "pending"
     },
     {
@@ -142,7 +128,6 @@
         "Pizza",
         "Fries"
       ],
-      "total": 200,
       "status": "completed"
     },
     {
@@ -153,7 +138,6 @@
         "Fries",
         "Coke"
       ],
-      "total": 300,
       "status": "pending"
     },
     {
@@ -162,7 +146,6 @@
       "items": [
         "Pasta"
       ],
-      "total": 100,
       "status": "completed"
     },
     {
@@ -172,7 +155,6 @@
         "Pizza",
         "Coke"
       ],
-      "total": 200,
       "status": "pending"
     },
     {
@@ -182,7 +164,6 @@
         "Burger",
         "Pizza"
       ],
-      "total": 200,
       "status": "completed"
     },
     {
@@ -192,7 +173,6 @@
         "Fries",
         "Coke"
       ],
-      "total": 200,
       "status": "pending"
     },
     {
@@ -201,7 +181,6 @@
       "items": [
         "Burger"
       ],
-      "total": 100,
       "status": "completed"
     },
     {
@@ -212,7 +191,6 @@
         "Fries",
         "Coke"
       ],
-      "total": 300,
       "status": "pending"
     },
     {
@@ -221,7 +199,6 @@
       "items": [
         "Pasta"
       ],
-      "total": 100,
       "status": "completed"
     },
     {
@@ -231,7 +208,6 @@
         "Pizza",
         "Burger"
       ],
-      "total": 200,
       "status": "pending"
     },
     {
@@ -241,7 +217,6 @@
         "Fries",
         "Coke"
       ],
-      "total": 200,
       "status": "completed"
     },
     {
@@ -251,7 +226,6 @@
         "Burger",
         "Coke"
       ],
-      "total": 200,
       "status": "pending"
     },
     {
@@ -261,7 +235,6 @@
         "Pasta",
         "Pizza"
       ],
-      "total": 200,
       "status": "completed"
     },
     {
@@ -271,7 +244,6 @@
         "Fries",
         "Burger"
       ],
-      "total": 200,
       "status": "pending"
     },
     {
@@ -281,7 +253,6 @@
         "Coke",
         "Pizza"
       ],
-      "total": 200,
       "status": "completed"
     },
     {
@@ -292,7 +263,6 @@
         "Fries",
         "Coke"
       ],
-      "total": 300,
       "status": "pending"
     },
     {
@@ -302,7 +272,6 @@
         "Burger",
         "Pizza"
       ],
-      "total": 200,
       "status": "pending"
     },
     {
@@ -312,7 +281,6 @@
         "Fries",
         "Pasta"
       ],
-      "total": 200,
       "status": "completed"
     },
     {
@@ -321,7 +289,6 @@
       "items": [
         "Pizza"
       ],
-      "total": 100,
       "status": "pending"
     },
     {
@@ -331,7 +298,6 @@
         "Burger",
         "Fries"
       ],
-      "total": 200,
       "status": "completed"
     },
     {
@@ -340,7 +306,6 @@
       "items": [
         "Coke"
       ],
-      "total": 100,
       "status": "pending"
     },
     {
@@ -349,7 +314,6 @@
       "items": [
         "Pasta"
       ],
-      "total": 100,
       "status": "completed"
     },
     {
@@ -359,7 +323,6 @@
         "Pizza",
         "Burger"
       ],
-      "total": 200,
       "status": "pending"
     },
     {
@@ -369,7 +332,6 @@
         "Fries",
         "Coke"
       ],
-      "total": 200,
       "status": "completed"
     },
     {
@@ -378,7 +340,6 @@
       "items": [
         "Burger"
       ],
-      "total": 100,
       "status": "pending"
     },
     {
@@ -388,7 +349,6 @@
         "Pizza",
         "Fries"
       ],
-      "total": 200,
       "status": "completed"
     },
     {
@@ -399,7 +359,6 @@
         "Fries",
         "Coke"
       ],
-      "total": 300,
       "status": "pending"
     },
     {
@@ -409,7 +368,6 @@
         "Pasta",
         "Pizza"
       ],
-      "total": 200,
       "status": "completed"
     },
     {
@@ -418,7 +376,6 @@
       "items": [
         "Fries"
       ],
-      "total": 100,
       "status": "pending"
     },
     {
@@ -427,7 +384,6 @@
       "items": [
         "Coke"
       ],
-      "total": 100,
       "status": "completed"
     },
     {
@@ -437,7 +393,6 @@
         "Pizza",
         "Coke"
       ],
-      "total": 200,
       "status": "pending"
     },
     {
@@ -447,7 +402,6 @@
         "Burger",
         "Fries"
       ],
-      "total": 200,
       "status": "completed"
     },
     {
@@ -457,7 +411,6 @@
         "Pasta",
         "Coke"
       ],
-      "total": 200,
       "status": "pending"
     },
     {
@@ -467,7 +420,6 @@
         "Pizza",
         "Burger"
       ],
-      "total": 200,
       "status": "completed"
     },
     {
@@ -477,7 +429,6 @@
         "Fries",
         "Pasta"
       ],
-      "total": 200,
       "status": "pending"
     },
     {
@@ -488,27 +439,9 @@
         "Pizza",
         "Burger"
       ],
-      "total": 300,
       "status": "completed"
-    },
-    {
-      "id": "dc9d",
-      "tableNo": "10",
-      "items": [
-        "burger"
-      ],
-      "total": 100,
-      "status": "pending"
-    },
-    {
-      "id": "31c3",
-      "tableNo": "10",
-      "items": [
-        "kcek"
-      ],
-      "total": 100,
-      "status": "pending"
     }
+   
   ],
   "menu": [
     {

@@ -1,8 +1,7 @@
 export type Order={
     id?:number;
-    tableNo?:string;
+    tableNo:string;
     items:string[];
-    total:number;
     status:"pending"|"completed";
 }
 

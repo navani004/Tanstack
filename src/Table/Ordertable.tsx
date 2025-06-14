@@ -33,9 +33,6 @@ const Ordertable = ({ data }: Props) => {
       header: 'Items',
       cell: (info) => info.getValue().join(', '),
     }),
-    columnHelper.accessor('total', {
-      header: 'Total',
-    }),
     columnHelper.accessor('status', {
       header: 'Status',
     }),
@@ -131,4 +128,3 @@ const Ordertable = ({ data }: Props) => {
 };
 
 export default Ordertable;
-
