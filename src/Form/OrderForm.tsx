@@ -100,8 +100,7 @@ const OrderForm = () => {
   const [tableNo, setTableNo] = useState('');
   const [items, setItems] = useState<string[]>([]);
   const [itemInput, setItemInput] = useState('');
-  const [status, setStatus] = useState<Order['status']>('pending');
-
+  const [status, setStatus] = useState<Order['status']>('pending')
   const queryClient = useQueryClient();
   const navigate = useNavigate();
 
